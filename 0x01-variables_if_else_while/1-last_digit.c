@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main -Prints the last digit of a random number
  * and whether it is greater than 5, less than 6, or 0.
@@ -9,6 +10,8 @@
 int main(void)
 {
 	int n;
+	int a;
+
 	srand(time(0))
 	n = rand() - RAND_MAX / 2;
 
