@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	for (char c = 'a'; c <= 'z'; c++)
-	{
-		putchar(c);
-	}
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
 	putchar('/n');
 
