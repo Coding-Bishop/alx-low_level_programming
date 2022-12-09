@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Prints all combinations of two two-digit numbers,from 0-99.
  * Return: Always 0.
