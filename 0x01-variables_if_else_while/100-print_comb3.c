@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Prints all combinations of two digits, separatd by a comma and a space, in ascending order.
+ * main - Prints all combinations of two digits, in ascending order.
  * Return: Always 0.
  */
 int main(void)
 {
 	int digit1, digit2;
+
 	for (digit1 = 0; digit1 < 9; digit1++)
 	{
 		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
